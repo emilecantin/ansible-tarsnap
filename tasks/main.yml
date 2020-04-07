@@ -60,6 +60,7 @@
     month: "{{ tarsnap_cron_month }}"
 
 - name: Reminder about Tarsnap key and cron mailto
+  when: tarsnap_key_is_installed is not defined
   pause:
     prompt: |
         Ansible paused.

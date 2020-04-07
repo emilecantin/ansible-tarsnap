@@ -1,11 +1,15 @@
 Tarsnap Ansible role
 =========
 
-Installs and manages `tarsnap` + `tarsnapper` on CentOS/RHEL 7.
+This is a fork of @jeffwidman's tarsnap Ansible role, butchered so it works on my Mac.
+
+Manages `tarsnap` + `tarsnapper` on UNIX machines
 
 Tarsnapper is a python wrapper for maintaining a GFS backup system.
 
 Also includes logrotate policy.
+
+NOTE: You are responsible for the installation of Tarsnap & tarsnapper (should be just a `package` away).
 
 Role Variables
 --------------

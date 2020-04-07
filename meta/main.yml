@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: tarsnap
   author: Emile Cantin
   description: Configures tarsnap + logrotate policy + tarsnapper python wrapper
   company: ecantin.info

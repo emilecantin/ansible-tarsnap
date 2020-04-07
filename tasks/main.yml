@@ -70,4 +70,4 @@
             2) Use `crontab -e` and verify at the top it says "MAILTO={{ email_address }}"
                 If the MAILTO variable gets changed, need to reboot the server for it to take effect.
             3) Verify that port 9279 is open for tarsnap to communicate with server
-        Then come back here and hit enter to continue.
+        Then come back here and hit enter to continue. You can set the "tarsnap_key_is_installed" variable to skip this prompt.

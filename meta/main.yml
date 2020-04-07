@@ -1,8 +1,8 @@
 ---
 galaxy_info:
-  author: Jeff Widman
-  description: Installs and configures tarsnap + logrotate policy + tarsnapper python wrapper
-  company: RockClimbing.com
+  author: Emile Cantin
+  description: Configures tarsnap + logrotate policy + tarsnapper python wrapper
+  company: ecantin.info
 
   license: MIT
   min_ansible_version: 1.9

@@ -28,5 +28,6 @@ exec 2>&1
 # Note: Tarsnapper currently doesn't support passing `--print-stats` to Tarsnap:
 # https://github.com/miracle2k/tarsnapper/issues/16
 log "backup generation START"
-nice -n19 ionice -c3 tarsnapper -c {{ tarsnapper_jobs_destfile }} make
+# nice -n19 ionice -c3 tarsnapper -c {{ tarsnapper_jobs_destfile }} make
+tarsnapper -c {{ tarsnapper_jobs_destfile }} make
 log "backup generation DONE"
